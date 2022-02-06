@@ -1,0 +1,23 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajkumar-sk/me.git"
+  },
+  "author": "Surajkumar-sk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajkumar-sk/me/issues"
+  },
+  "homepage": "https://github.com/surajkumar-sk/me#readme",
+  "dependencies": {
+    "netlify-lambda": "^2.0.15"
+  }
+}
