@@ -1,2 +1,8 @@
 [build]
   functions="lambda"
+
+[[redirects]]
+from = "/"
+to = "/build/pages/homepage.html"
+status=200
+force=true
