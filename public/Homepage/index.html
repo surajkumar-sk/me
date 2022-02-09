@@ -465,7 +465,6 @@
     function sendEmail(e) {
       document.getElementById('email_send_btn').innerHTML = "Sending...";
       e.preventDefault();
-      console.log(e.target[0].value)
       let data = JSON.stringify({
         email: e.target[0].value,
         message: e.target[1].value
@@ -480,7 +479,6 @@
       }
       xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-          console.log(this)
           // Typical action to be performed when the document is ready:
           document.getElementsByClassName("success")[0].style.display = 'block';
           document.getElementById('email_send_btn').innerHTML = "Send"

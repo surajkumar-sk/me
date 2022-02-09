@@ -6,3 +6,33 @@ from = "/"
 to = "/build/pages/homepage.html"
 status=200
 force=true
+
+[[redirects]]
+from = "/about"
+to = "/build/pages/about.html"
+status=200
+force=true
+
+[[redirects]]
+from = "/projects"
+to = "/build/pages/projects.html"
+status=200
+force=true
+
+[[redirects]]
+from = "/demo/homepage1"
+to = "/build/pages/homepage1.html"
+status=200
+force=true
+
+[[redirects]]
+from = "/demo/homepage2"
+to = "/build/pages/homepage2.html"
+status=200
+force=true
+
+[[redirects]]
+from = "/plaincv"
+to = "/public/CV.pdf"
+status=200
+force=true

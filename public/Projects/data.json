@@ -1,0 +1,116 @@
+{
+  "frontend": {
+    "id": "frontend",
+    "name": "Front End",
+    "color_1": "#2193b0",
+    "color_2": "#6dd5ed",
+    "def_image": "/public/Projects/assets/default.svg",
+    "data": [{
+      "image": "/public/Projects/assets/sarvh.png",
+      "heading": "Sarvh",
+      "paragraph": "I am not allowed to share the code for the page but you can vist the beta version of the website which is an old version made public in november 2021 ",
+      "demo": 1,
+      "demo_link": "https://sarvh.herokuapp.com",
+      "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/sarvh"
+    }, {
+      "image": "/public/Projects/assets/homepage1.png",
+      "heading": "Hompage - 1",
+      "paragraph": "This was the first homepage that i designed and coded as intro formyself. I named the website theme as Mysterious Land because it looks like a blue land emerging from dark blue and white gradient space displaying my details and links.",
+      "demo": 1,
+      "demo_link": "https://surajkumarsk.me/demo/homepage1",
+      "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/Homepage1"
+    },
+    {
+      "image": "/public/Projects/assets/about.png",
+      "heading": "About Me",
+      "paragraph": "I was just browsing for some inspiration for displaying a small story on a website. Then I came across this concept of hijacking the scroll and make the browser scroll divs as per my story. So I implemented the concept to design my about me page. Keep scrolling **slowly** and you are in for a fun Ride.",
+      "demo": 1,
+      "demo_link": "https://surajkumarsk.me/about",
+      "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/Aboutme"
+    },
+    {
+      "image": "/public/Projects/assets/Project.png",
+      "heading": "Projects Page",
+      "paragraph": "This page displays all the projects mentioned in this repo with a more appealing UI. Visit this site and you are up for some cool slides and swipes.(Open the menu from top menu Icon).",
+      "demo": 1,
+      "demo_link": "https://surajkumarsk.me/projects",
+      "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/ProjectPage"
+    },
+    {
+      "image": "/public/Projects/assets/homepage2.png",
+      "heading": "Homepage - 2",
+      "paragraph": "This was my next Homepage after Homepage-1 (I know design degraded a bit). It's a page that contains minimum components and direct Links. I name the Theme for the website as Lights On (you'll know why when you visit the page ;-)",
+      "demo": 1,
+      "demo_link": "https://surajkumarsk.me/demo/homepage2",
+      "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/Homepage2"
+    }
+    ]
+  },
+  "backend": {
+    "id": "backend",
+    "name": "Back End",
+    "color_1": "#4f54da",
+    "color_2": "#7420b9",
+    "def_image": "/public/Projects/assets/default.svg",
+    "data": [
+      {
+      "image": "/public/Projects/assets/sarvh.jpg",
+      "heading": "Sarvh",
+      "paragraph": "While I worked as an intern and then Web Development Team lead I implemented a lot of backend logic, implemented ElasticSearch, managed team code and guided them towards writing efficient and readable code(my personal projects would reflect those :-), Managed DataBase and hosted their site on Heroku then Netlify and then AWS.",
+      "demo": 1,
+      "demo_link": "https://sarvh.herokuapp.com",
+      "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/sarvh"
+      },
+      {
+        "image": "/public/Projects/assets/admission.jpg",
+        "heading": "Admission Form Server",
+        "paragraph": "A school did admissions on paper and it became very hard to print copies of forms and finding a student details, so I implemented a server for them. This server return a HTML form to be filled with students details and then after submit server processes the data and generates a pdf file with the details and send them to the user and also save the copy of the data into an excel file, which can be downloaded to search for students details on later date. ",
+        "demo": 1,
+        "demo_link": "https://admission-form-zphs.herokuapp.com/",
+        "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/Admission"
+      }
+
+    ]
+  },
+  "Mini_Projects": {
+    "id": "Mini_Projects",
+    "name": "Mini_Projects",
+    "color_1": "#000428",
+    "color_2": "#004e92",
+    "def_image": "/public/Projects/assets/default.svg",
+    "data": [
+      {
+        "image": "/public/Projects/assets/instabot.jpg",
+        "heading": "Instagram Bot",
+        "paragraph": "When i was learning about servers and data bases, I realized every action that we do on instagram is basically an api calls. So , why not read the api calls and make a bot(I heard it helps a lot in marketing). So i made this project around that time. This bot can easily be configured and used by anyone. It can like posts , comment on posts, get a users follower list, get top 5 posts of a user and more...",
+        "demo": 0,
+        "demo_link": "",
+        "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/Instabot"
+      },
+      {
+        "image": "/public/Projects/assets/forms.jpg",
+        "heading": "Form Data to Certificates",
+        "paragraph": " I implemented a Project to take the data in an excel file and make certificates as PDf and store them for later distribution. I didn't have much time otherwise i would have made a way to configure details that needs to be on certificate.",
+        "demo": 0,
+        "demo_link": "",
+        "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/Certificates"
+      },
+      {
+        "image": "/public/Projects/assets/sorting.png",
+        "heading": "Sorting Excel Data",
+        "paragraph": " There was a need for sorting Telangana Teachers data depending on a list of factors, I implemented a server to take an excel file as an input and had the logic and parameters for sorting data hard coded in js. The actual sorting was done manually by some officers my sorting server was used just to check for any possible mistakes that might have occured while sorting the data.",
+        "demo": 0,
+        "demo_link": "",
+        "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/Sortingserver"
+      },
+      {
+        "image": "/public/Projects/assets/search.png",
+        "heading": "Teachers Info",
+        "paragraph": " This website takes district name and designation as a form data and returns all the teachers details who work in that district under that designation. Behind the scene the server just has a Search algorithm that takes form data does the search in excel file and returns all the matching entries.",
+        "demo": 0,
+        "demo_link": "",
+        "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/Teachersinfo"
+      }
+    ]
+  }
+}

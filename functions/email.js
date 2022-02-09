@@ -56,6 +56,13 @@ async function main(data) {
 exports.handler = async function(event,context){
   const req = JSON.parse(event.body);
   const data = {email:req.email,message:req.message}
+  if(!req.email || !req.message){
+    return{
+      statusCode:400,
+      body:'BOth message and email are needed for sending email'
+    };
+  }
+  
   res = await main(data);
   if(res.statusCode == 400){
     return{
