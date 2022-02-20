@@ -156,6 +156,14 @@ var data = {
     "color_2": "#004e92",
     "def_image": "/public/Projects/assets/default.svg",
     "data": [{
+        "image": "/public/Projects/assets/feedpage.PNG",
+        "heading": "Feeds Page",
+        "paragraph": "This project displays a feeds page with all basic features of feeds like lazy loading, like, comment and auth.",
+        "demo": 0,
+        "demo_link": "",
+        "code_link": "https://github.com/surajkumar-sk/Projects/tree/main/feedspage"
+      },
+      {
         "image": "/public/Projects/assets/instabot.jpg",
         "heading": "Instagram Bot",
         "paragraph": "When i was learning about servers and data bases, I realized every action that we do on instagram is basically an api calls. So , why not read the api calls and make a bot(I heard it helps a lot in marketing). So i made this project around that time. This bot can easily be configured and used by anyone. It can like posts , comment on posts, get a users follower list, get top 5 posts of a user and more...",
